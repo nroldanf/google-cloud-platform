@@ -1,0 +1,12 @@
+name: gcp
+channels:
+  - defaults
+dependencies:
+  - pip=21.0.1
+  - python=3.7.11
+  - pip:
+    - pre-commit==2.15.0
+    - google-api-python-client==2.29.0
+    - google-cloud-vision==2.6.2
+    - google-cloud-storage==1.42.3
+prefix: /opt/anaconda3/envs/gcp
